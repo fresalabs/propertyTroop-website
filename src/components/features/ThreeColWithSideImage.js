@@ -71,13 +71,12 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "We don't save any of you personal property details.  "
+      description: "We don't save any of you personal property details."
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { imageSrc: SupportIconImage, title: "24/7 Support", description: "Customer complaints are handled within hours." },
+    { imageSrc: ReliableIconImage, title: "Reliable", description: "Everything was constructed using dependable government resources." },
+    { imageSrc: FastIconImage, title: "Fast", description: "We create the history of your property in a flash." },
+    { imageSrc: SimpleIconImage, title: "Easy", description: "An intuitive and self-explanatory app" }
   ];
 
   if (!cards) cards = defaultCards;
