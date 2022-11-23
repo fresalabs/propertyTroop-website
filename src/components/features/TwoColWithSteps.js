@@ -63,12 +63,12 @@ export default ({
       description: "Create an account with us using Google or Facebook."
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
+      heading: "Find Property",
+      description: "Find your property using document no, year and sro."
     },
     {
-      heading: "Run",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      heading: "View Property Details",
+      description: "Property history graph view and detailed information of property are visible."
     }
   ];
 
