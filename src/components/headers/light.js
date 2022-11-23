@@ -37,7 +37,8 @@ export const LogoLink = styled(NavLink)`
   ${tw`flex items-center font-black border-b-0 text-2xl! ml-0!`};
 
   img {
-    ${tw`w-10 mr-3`}
+   width: 200px;
+    height: 50px;
   }
 `;
 
@@ -89,7 +90,6 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
-      PropertyTroop
     </LogoLink>
   );
 
