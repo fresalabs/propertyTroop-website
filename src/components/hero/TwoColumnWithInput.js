@@ -53,11 +53,10 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              Beautiful React Templates <span tw="text-primary-500">for you.</span>
+              Property history <span tw="text-primary-500">for you</span>
             </Heading>
             <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
+              Property Troop is a one-stop shop for learning about the history (Encumbrance) of all of your property details.
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Your E-mail Address" />

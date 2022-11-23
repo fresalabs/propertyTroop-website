@@ -55,7 +55,7 @@ export default ({
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security.",
+      description: "We don't save any of your property details. ",
       url: "https://timerse.com"
     },
     {
