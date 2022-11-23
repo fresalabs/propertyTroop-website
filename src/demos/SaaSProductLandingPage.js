@@ -33,6 +33,31 @@ export default () => {
           </>
         }
       />
+        <MainFeature2
+            subheading={<Subheading>Property history family tree</Subheading>}
+            heading={
+                <>
+                    History tree is build by our <HighlightedText>Intelligent</HighlightedText> system.
+                </>
+            }
+            description="This graphical representation includes both our property parent documents and the documents that spawned from our parent document. This aids us in the detection of fraud."
+            imageSrc={prototypeIllustrationImageSrc}
+            showDecoratorBlob={false}
+            features={[
+                {
+                    Icon: MoneyIcon,
+                    title: "Affordable",
+                    description: "We promise to offer you the best rate we can - at par with the industry standard.",
+                    iconContainerCss: tw`bg-green-300 text-green-800`
+                },
+                {
+                    Icon: BriefcaseIcon,
+                    title: "Professionalism",
+                    description: "We guarantee that all of these services were created and designed by top software professionals.",
+                    iconContainerCss: tw`bg-red-300 text-red-800`
+                }
+            ]}
+        />
       <MainFeature
         subheading={<Subheading>Quality Work</Subheading>}
         imageSrc={heroScreenshotImageSrc}
@@ -51,30 +76,7 @@ export default () => {
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       />
-      <MainFeature2
-        subheading={<Subheading>VALUES</Subheading>}
-        heading={
-          <>
-            We Always Abide by Our <HighlightedText>Principles.</HighlightedText>
-          </>
-        }
-        imageSrc={prototypeIllustrationImageSrc}
-        showDecoratorBlob={false}
-        features={[
-          {
-            Icon: MoneyIcon,
-            title: "Affordable",
-            description: "We promise to offer you the best rate we can - at par with the industry standard.",
-            iconContainerCss: tw`bg-green-300 text-green-800`
-          },
-          {
-            Icon: BriefcaseIcon,
-            title: "Professionalism",
-            description: "We assure you that our templates are designed and created by professional designers.",
-            iconContainerCss: tw`bg-red-300 text-red-800`
-          }
-        ]}
-      />
+
       <Pricing
         subheading={<Subheading>Pricing</Subheading>}
         heading={
