@@ -49,7 +49,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Our Offices", subheading = "Locations", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Our Offices", subheading = "Locations", description = "hello" }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) title - the title of the card
@@ -60,7 +60,7 @@ export default ({ cards = null, heading = "Our Offices", subheading = "Locations
   const defaultCards = [
     {
       title: "Secure",
-      description: "We don't save any of you personal property details.  "
+      description: "Our secure systems always encrypts data and only sends data encrypted."
     },
     { 
       title: "24/7 Support",

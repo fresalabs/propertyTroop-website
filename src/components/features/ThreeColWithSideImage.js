@@ -71,12 +71,12 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "We don't save any of you personal property details."
+      description: "Our secure systems always encrypts data and only sends data encrypted."
     },
     { imageSrc: SupportIconImage, title: "24/7 Support", description: "Customer complaints are handled within hours." },
-    { imageSrc: ReliableIconImage, title: "Reliable", description: "Everything was constructed using dependable government resources." },
-    { imageSrc: FastIconImage, title: "Fast", description: "We create the history of your property in a flash." },
-    { imageSrc: SimpleIconImage, title: "Easy", description: "An intuitive and self-explanatory app" }
+    { imageSrc: ReliableIconImage, title: "Reliable", description: "Every piece of data we provide is constructed from original government sources." },
+    { imageSrc: FastIconImage, title: "Fast", description: "We create the history of your property in a blink of an eye." },
+    { imageSrc: SimpleIconImage, title: "Easy", description: "Very intuitive and self-explanatory app built from iterative feedback" }
   ];
 
   if (!cards) cards = defaultCards;
@@ -97,7 +97,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
+                  {card.description || ""}
                 </p>
               </span>
             </Card>

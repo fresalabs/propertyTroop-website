@@ -29,35 +29,36 @@ export default () => {
         subheading={<Subheading>Features</Subheading>}
         heading={
           <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
+            One place for all your property history <HighlightedText>(Encumbrance).</HighlightedText>
           </>
         }
+        description=""
       />
-        <MainFeature2
-            subheading={<Subheading>Property history family tree</Subheading>}
-            heading={
-                <>
-                    History tree is build by our <HighlightedText>Intelligent</HighlightedText> system.
-                </>
-            }
-            description="This graphical representation includes both our property parent documents and the documents that spawned from our parent document. This aids us in the detection of fraud."
-            imageSrc={prototypeIllustrationImageSrc}
-            showDecoratorBlob={false}
-            features={[
-                {
-                    Icon: MoneyIcon,
-                    title: "Affordable",
-                    description: "We promise to offer you the best rate we can - at par with the industry standard.",
-                    iconContainerCss: tw`bg-green-300 text-green-800`
-                },
-                {
-                    Icon: BriefcaseIcon,
-                    title: "Professionalism",
-                    description: "We guarantee that all of these services were created and designed by top software professionals.",
-                    iconContainerCss: tw`bg-red-300 text-red-800`
-                }
-            ]}
-        />
+      <MainFeature2
+          subheading={<Subheading>Property history family tree</Subheading>}
+          heading={
+              <>
+                  History tree is build by our <HighlightedText>Intelligent</HighlightedText> system.
+              </>
+          }
+          description="The graphical structure of history of your property is built in a way that automatically detects fraud."
+          imageSrc={prototypeIllustrationImageSrc}
+          showDecoratorBlob={false}
+          features={[
+              {
+                  Icon: MoneyIcon,
+                  title: "Most Affordable",
+                  description: "We promise to offer you the most affordable price for the service provided.",
+                  iconContainerCss: tw`bg-green-300 text-green-800`
+              },
+              {
+                  Icon: BriefcaseIcon,
+                  title: "World Class",
+                  description: "We guarantee that all of these services are created and designed by world class engineers with iterative feedback from property buyers, sellers.",
+                  iconContainerCss: tw`bg-red-300 text-red-800`
+              }
+          ]}
+      />
       <MainFeature
         subheading={<Subheading>Quality Work</Subheading>}
         imageSrc={heroScreenshotImageSrc}
