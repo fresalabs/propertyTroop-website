@@ -3,9 +3,8 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
+import Footer from "components/footers/FiveColumnDark.js";
 import { SectionHeading } from "components/misc/Headings";
 
 const HeadingRow = tw.div`flex`;
@@ -34,17 +33,17 @@ const Text = styled.div`
     }
   }
 `;
-export default ({ headingText = "Privacy Policy" }) => {
+export default ({ headingText = "Privacy Policy", links=[] }) => {
   return (
     <AnimationRevealPage>
-      <Header />
+      <Header links={links}/>
       <Container>
         <ContentWithPaddingXl>
           <HeadingRow>
             <Heading>{headingText}</Heading>
           </HeadingRow>
           <Text>
-            <p>Last updated: April 21, 2048</p>
+            <p>Last updated: December 04, 2022</p>
 
             <p>
               This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your

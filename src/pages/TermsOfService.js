@@ -5,7 +5,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
+import Footer from "components/footers/FiveColumnDark.js";
 import { SectionHeading } from "components/misc/Headings";
 
 const HeadingRow = tw.div`flex`;
@@ -35,10 +35,10 @@ const Text = styled.div`
   }
 `;
 
-export default ({ headingText = "Terms And Condition" }) => {
+export default ({ headingText = "Terms And Conditions", links=[] }) => {
   return (
     <AnimationRevealPage>
-      <Header />
+      <Header links={links} />
       <Container>
         <ContentWithPaddingXl>
           <HeadingRow>
@@ -46,7 +46,7 @@ export default ({ headingText = "Terms And Condition" }) => {
           </HeadingRow>
           <Text>
 
-            <p>Last updated: April 21, 2048</p>
+            <p>Last updated: December 04, 2022</p>
 
             <p>Please read these terms and conditions carefully before using Our Service.</p>
 
@@ -263,8 +263,7 @@ export default ({ headingText = "Terms And Condition" }) => {
             <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
 
             <ul>
-              <li>By email: support@example.com</li>
-              <li>By phone number: 408.996.1010</li>
+              <li>By email: support@getpropertytroop.com</li>
             </ul>
           </Text>
         </ContentWithPaddingXl>
