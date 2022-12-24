@@ -87,8 +87,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import AgencyLandingPage from "demos/AgencyLandingPage.js";
 // import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 // import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
-// import ServiceLandingPage from "demos/ServiceLandingPage.js";
-// import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
+import ServiceLandingPage from "demos/ServiceLandingPage.js";
+import HostingCloudLandingPage from "demos/PropertyTroop.js";
 
 /* Inner Pages */
 // import LoginPage from "pages/Login.js";
@@ -121,6 +121,8 @@ export default function App() {
           <Route path="/components/:type/:name" element={<ComponentRenderer />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/" element={<SaaSProductLandingPage />} />
+          <Route path="/test" element={<HostingCloudLandingPage />} />
+          <Route path="/service" element={<ServiceLandingPage />} />
         </Routes>
       </Router>
     </>

@@ -11,8 +11,8 @@ import { Container as ContainerBase, ContentWithVerticalPadding, Content2Xl } fr
 import { SectionHeading } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import logoImageSrc from "images/logo-light.svg";
 import serverIllustrationImageSrc from "images/server-illustration-2.svg";
+import Logo from "images/Logo.js";
 
 const PrimaryBackgroundContainer = tw.div`-mx-8 px-8 bg-primary-900 text-gray-100`;
 const Header = tw(HeaderBase)`max-w-none -mt-8 py-8 -mx-8 px-8`;
@@ -39,22 +39,21 @@ export default ({
 }) => {
   const logoLink = (
     <LogoLink href="/">
-      <img src={logoImageSrc} alt="Logo" />
-      Treact
+      <Logo fill="#FFFFFF" width={250} height={50} viewBox="100 0 400 150"/>
     </LogoLink>
   );
   const navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#">Features</NavLink>
-      <NavLink href="#">Pricing</NavLink>
-      <NavLink href="#">Login</NavLink>
       <PrimaryLink href="#">Signup</PrimaryLink>
     </NavLinks>
   ];
   return (
     <PrimaryBackgroundContainer>
       <Content2Xl>
-        <Header logoLink={logoLink} links={navLinks} />
+        <Header
+          logoLink={logoLink}
+          links={navLinks}
+        />
         <Container>
           <ContentWithVerticalPadding>
             <Row>

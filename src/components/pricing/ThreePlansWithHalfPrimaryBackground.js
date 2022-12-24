@@ -73,7 +73,7 @@ export default ({
   heading = "Affordable Pricing",
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   plans = null,
-  primaryButtonText = "Create Server"
+  primaryButtonText = "Try PropertyTroop"
 }) => {
   const defaultPlans = [
     {
