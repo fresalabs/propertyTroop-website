@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 //eslint-disable-next-line
-import { css } from "styled-components/macro";
+import {css} from "styled-components/macro";
 
 import Header from "../headers/light.js";
 
-import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
+import {ReactComponent as SvgDecoratorBlob1} from "../../images/svg-decorator-blob-1.svg";
 import DesignIllustration from "../../images/design-illustration-2.svg";
 import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
 
@@ -45,10 +45,10 @@ const CustomersLogoStrip = styled.div`
   }
 `;
 
-export default ({ roundedHeaderButton }) => {
+export default ({roundedHeaderButton}) => {
   return (
     <>
-      <Header roundedHeaderButton={roundedHeaderButton} />
+      <Header roundedHeaderButton={roundedHeaderButton}/>
       <Container>
         <TwoColumn>
           <LeftColumn>
@@ -56,24 +56,25 @@ export default ({ roundedHeaderButton }) => {
               Property history <span tw="text-primary-500">for you</span>
             </Heading>
             <Paragraph>
-              PropertyTroop is a one-stop shop for learning about the history (Encumbrance) of all of your property details.
+              PropertyTroop is a one-stop shop for learning about the history (Encumbrance) of all of your property
+              details.
             </Paragraph>
             <Actions>
-              <input type="text" placeholder="Your E-mail Address" />
+              <input type="text" placeholder="Your E-mail Address"/>
               <button>Get Started</button>
             </Actions>
             <CustomersLogoStrip>
               <p>Our TRUSTED Customers</p>
-              <img src={CustomersLogoStripImage} alt="Our Customers" />
+              <img src={CustomersLogoStripImage} alt="Our Customers"/>
             </CustomersLogoStrip>
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>
-              <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration" />
+              <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration"/>
             </IllustrationContainer>
           </RightColumn>
         </TwoColumn>
-        <DecoratorBlob1 />
+        <DecoratorBlob1/>
       </Container>
     </>
   );

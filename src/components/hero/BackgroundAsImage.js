@@ -1,9 +1,9 @@
 import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { css } from "styled-components/macro"; //eslint-disable-line
+import {css} from "styled-components/macro"; //eslint-disable-line
 
-import Header, { NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
+import Header, {NavLink, NavLinks, PrimaryLink, LogoLink, NavToggle, DesktopNavLinks} from "../headers/light.js";
 import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 
 const StyledHeader = styled(Header)`
@@ -80,15 +80,15 @@ export default () => {
 
   return (
     <Container>
-      <OpacityOverlay />
+      <OpacityOverlay/>
       <HeroContainer>
-        <StyledHeader links={navLinks} />
+        <StyledHeader links={navLinks}/>
         <TwoColumn>
           <LeftColumn>
             <Notification>We have now launched operations in Europe.</Notification>
             <Heading>
               <span>Hire the best</span>
-              <br />
+              <br/>
               <SlantedBackground>Marketing Team.</SlantedBackground>
             </Heading>
             <PrimaryAction>Read Customer Stories</PrimaryAction>

@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import { css } from "styled-components/macro"; //eslint-disable-line
-import HeaderBase, { NavLinks, NavLink, PrimaryLink } from "components/headers/light.js";
-import { SectionHeading } from "components/misc/Headings.js";
-import { SectionDescription } from "components/misc/Typography.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import { Container, ContentWithVerticalPadding } from "components/misc/Layouts.js";
-import { ReactComponent as CheckboxIcon } from "feather-icons/dist/icons/check-circle.svg";
-import { ReactComponent as QuotesLeftIconBase } from "images/quotes-l.svg"
-import { ReactComponent as SvgDecoratorBlob1 } from "images/dot-pattern.svg"
+import {css} from "styled-components/macro"; //eslint-disable-line
+import HeaderBase, {NavLinks, NavLink, PrimaryLink} from "components/headers/light.js";
+import {SectionHeading} from "components/misc/Headings.js";
+import {SectionDescription} from "components/misc/Typography.js";
+import {PrimaryButton as PrimaryButtonBase} from "components/misc/Buttons.js";
+import {Container, ContentWithVerticalPadding} from "components/misc/Layouts.js";
+import {ReactComponent as CheckboxIcon} from "feather-icons/dist/icons/check-circle.svg";
+import {ReactComponent as QuotesLeftIconBase} from "images/quotes-l.svg"
+import {ReactComponent as SvgDecoratorBlob1} from "images/dot-pattern.svg"
 
 const Header = tw(HeaderBase)`max-w-none`;
 const Row = tw.div`flex flex-col lg:flex-row justify-between items-center lg:pt-16 max-w-screen-2xl mx-auto sm:px-8`;
@@ -71,7 +71,7 @@ export default ({
   ];
   return (
     <>
-      <Header links={navLinks} />
+      <Header links={navLinks}/>
       <Container>
         <ContentWithVerticalPadding>
           <Row>
@@ -84,7 +84,7 @@ export default ({
               <FeatureList>
                 {features.map((feature, index) => (
                   <Feature key={index}>
-                    <FeatureIcon />
+                    <FeatureIcon/>
                     <FeatureText>{feature}</FeatureText>
                   </Feature>
                 ))}
@@ -92,8 +92,8 @@ export default ({
             </TextColumn>
             <ImageColumn>
               <ImageContainer>
-                <Image src={imageSrc} />
-                {imageDecoratorBlob && <ImageDecoratorBlob />}
+                <Image src={imageSrc}/>
+                {imageDecoratorBlob && <ImageDecoratorBlob/>}
                 <Testimonial>
                   <QuotesLeftIcon/>
                   <Quote>{testimonial.quote}</Quote>
@@ -101,7 +101,7 @@ export default ({
                   <CustomerCompany>{testimonial.customerCompany}</CustomerCompany>
                 </Testimonial>
               </ImageContainer>
-              <Offsetbackground />
+              <Offsetbackground/>
             </ImageColumn>
           </Row>
         </ContentWithVerticalPadding>
