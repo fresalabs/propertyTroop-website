@@ -72,13 +72,13 @@ export default () => {
             <ColumnHeading>Legal</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Privacy Policy</Link>
+                <Link href="/privacy">Privacy Policy</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Terms of Service</Link>
+                <Link href="/tos">Terms of Service</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Disclaimer</Link>
+                <Link href="/disclaimer">Disclaimer</Link>
               </LinkListItem>
             </LinkList>
           </Column>

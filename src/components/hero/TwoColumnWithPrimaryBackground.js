@@ -42,7 +42,16 @@ export default ({
       <Logo fill="#FFFFFF" width={250} height={50} viewBox="100 0 400 150"/>
     </LogoLink>
   );
-  const navLinks = [];
+  const navLinks = [
+    <NavLinks key={1}>
+      <NavLink href="/tos">Terms of Service</NavLink>
+      <NavLink href="/privacy">Privacy Policy</NavLink>
+      <NavLink href="/disclaimer">Disclaimer</NavLink>
+      <NavLink href="/#" tw="lg:ml-12!">
+        Try PropertyTroop
+      </NavLink>
+    </NavLinks>
+  ];
   return (
     <PrimaryBackgroundContainer>
       <Content2Xl>

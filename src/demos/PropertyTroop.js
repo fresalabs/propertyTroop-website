@@ -24,7 +24,7 @@ export default () => {
     <AnimationRevealPage>
       <Hero
         heading="Effortlessly access property encumbrance with PropertyTroop"
-        description="Discover the encumbrance history of any property without the hassle of visiting a lawyer or standing in government lines with Property Troop's convenient app."
+        description="Discover the encumbrance history of any property without the hassle of visiting a lawyer or standing in government lines with PropertyTroop's convenient app."
         primaryButtonText="Take control of your property"
         imageSrc={reserchingBro}
       />
@@ -39,7 +39,7 @@ export default () => {
       <MainFeature
         subheading="Search Service"
         heading="PropertyTroop allows users to easily search for and access the complete history of any property"
-        description="At Property Troop, we make it easy to search for and access the documents you need. Whether you have a document number or survey number, you can use our advanced search tools to quickly locate the desired document. Our database is regularly updated and comprehensive, ensuring that you have access to the most current information available. Once you have found the document you are looking for, you can view all of the details in a user-friendly format. Whether you need to review the document itself or track its history with our Timeline View feature, Property Troop has you covered. Try it out today and see the difference for yourself."
+        description="At PropertyTroop, we make it easy to search for and access the documents you need. Whether you have a document number or survey number, you can use our advanced search tools to quickly locate the desired document. Our database is regularly updated and comprehensive, ensuring that you have access to the most current information available. Once you have found the document you are looking for, you can view all of the details in a user-friendly format. Whether you need to review the document itself or track its history with our Timeline View feature, PropertyTroop has you covered. Try it out today and see the difference for yourself."
         imageSrc={documents}
         buttonRounded={false}
         textOnLeft={false}
@@ -48,7 +48,7 @@ export default () => {
       <MainFeature
         subheading="CC (Certified Copy) Service"
         heading="Don't trust without seeing the document"
-        description="At Property Troop, we understand the importance of having a reliable and accurate copy of your documents. That's why we offer a Certified Copy service that allows you to obtain a copy of your document without having to rely on the parties involved. Our Certified Copy service provides an exact replica of the original document, ensuring that you have a reliable and trustworthy reference. Whether you need to review the document yourself or provide it to another party, our Duplicate Copy service gives you the peace of mind that you have a genuine and accurate copy. Try it out today and see the difference for yourself."
+        description="At PropertyTroop, we understand the importance of having a reliable and accurate copy of your documents. That's why we offer a Certified Copy service that allows you to obtain a copy of your document without having to rely on the parties involved. Our Certified Copy service provides an exact replica of the original document, ensuring that you have a reliable and trustworthy reference. Whether you need to review the document yourself or provide it to another party, our Duplicate Copy service gives you the peace of mind that you have a genuine and accurate copy. Try it out today and see the difference for yourself."
         imageSrc={search}
         buttonRounded={false}
         primaryButtonText="Try PropertyTroop"
@@ -86,7 +86,7 @@ export default () => {
       />
       <Pricing
         heading="Affordable Pricing"
-        description="At Property Troop, we understand that not everyone has the same real estate needs. That's why we offer flexible pricing options to suit your specific requirements. Rather than a traditional monthly subscription model, we allow you to pay on a per-use basis. This means that you only pay for the timeline views or documents that you access, giving you complete control over your budget. Whether you're a first-time property buyer or a seasoned investor, our pay-as-you-use pricing makes it easy to get the information you need without breaking the bank. Try Property Troop today and see the difference for yourself."
+        description="At PropertyTroop, we understand that not everyone has the same real estate needs. That's why we offer flexible pricing options to suit your specific requirements. Rather than a traditional monthly subscription model, we allow you to pay on a per-use basis. This means that you only pay for the timeline views or documents that you access, giving you complete control over your budget. Whether you're a first-time property buyer or a seasoned investor, our pay-as-you-use pricing makes it easy to get the information you need without breaking the bank. Try PropertyTroop today and see the difference for yourself."
         plans={[{
           name: "Timeline view",
           price: ["₹10", ".00/timeline"],
@@ -114,7 +114,7 @@ export default () => {
         }]}
       />
       <Testimonial
-        description="At PropertyTroop, we value the feedback of our customers and use testimonials to highlight the positive impact our app has had on their real estate journey. Whether you are looking to buy, sell, or rent a property, our testimonials can give you an idea of what to expect when working with Property Troop. Read or watch our testimonials today and see what others have to say about their experiences with our app."
+        description="At PropertyTroop, we value the feedback of our customers and use testimonials to highlight the positive impact our app has had on their real estate journey. Whether you are looking to buy, sell, or rent a property, our testimonials can give you an idea of what to expect when working with PropertyTroop. Read or watch our testimonials today and see what others have to say about their experiences with our app."
         testimonials={[
           {
             customerName: "Govinda Reddy",
@@ -141,7 +141,7 @@ export default () => {
         ]}
       />
       <FAQ
-        description="At PropertyTroop, we have compiled a list of FAQs to provide you with the information you need to make an informed decision about our app. Our FAQs cover a range of topics, including how to use Property Troop, the accuracy and security of our services, and pricing. "
+        description="At PropertyTroop, we have compiled a list of FAQs to provide you with the information you need to make an informed decision about our app. Our FAQs cover a range of topics, including how to use PropertyTroop, the accuracy and security of our services, and pricing. "
         faqs={[
           {
             question: "What is PropertyTroop?",
@@ -151,17 +151,17 @@ export default () => {
           {
             question: "How do I use PropertyTroop?",
             answer:
-              "To use Property Troop, simply enter the property details or document information into the app and follow the prompts. Our app is designed to be user-friendly and intuitive, so you can easily access the information you need."
+              "To use PropertyTroop, simply enter the property details or document information into the app and follow the prompts. Our app is designed to be user-friendly and intuitive, so you can easily access the information you need."
           },
           {
-            question: "Is Property Troop accurate?",
+            question: "Is PropertyTroop accurate?",
             answer:
               "PropertyTroop's encumbrance data is regularly updated to ensure accuracy from various Government sources. In addition, our Certified Copy service provides an exact replica of the original document, ensuring that you have a reliable and trustworthy reference."
           },
           {
-            question: "How much does Property Troop cost?",
+            question: "How much does PropertyTroop cost?",
             answer:
-              "Property Troop offers a pay-as-you-use pricing model, which means you only pay for the timeline views or documents that you access. This allows you to have complete control over your budget and only pay for the services you need."
+              "PropertyTroop offers a pay-as-you-use pricing model, which means you only pay for the timeline views or documents that you access. This allows you to have complete control over your budget and only pay for the services you need."
           },
           {
             question: "Is there a monthly/yearly payment model?",

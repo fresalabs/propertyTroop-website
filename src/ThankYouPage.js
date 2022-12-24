@@ -47,53 +47,19 @@ export default () => {
           <NavRow>
             <LogoLink href="/">
               <img src={logo} alt="" />
-              Treact
             </LogoLink>
-            <div tw="flex flex-col lg:flex-row items-center">
-              <NavLink target="_blank" href="https://owaiskhan.me/post/free-tailwindcss-react-ui-kit">
-                License & Usage
-              </NavLink>
-              <NavLink target="_blank" href="https://twitter.com/owaiswiz">
-                Twitter
-              </NavLink>
-              <NavLink target="_blank" href="https://owaiskhan.me">
-                Who Am I ?
-              </NavLink>
-              <PrimaryNavLink target="_blank" href="https://gum.co/QaruQ">
-                Download Now
-              </PrimaryNavLink>
-            </div>
           </NavRow>
           <HeroRow>
-            <Heading>Thank You!</Heading>
-            <Description tw="mt-12">Your Download Will Begin Shortly. If it does not, <NavLink href={downloadUrl} download>click this link</NavLink>.</Description>
+            <Heading>Disclaimer</Heading>
+            <Description tw="mt-12">PropertyTroop is a resource for information about property ownership and related matters. We rely on government sources for the data we provide and make every effort to keep it up to date. However, we cannot guarantee the accuracy of this information and are not legally responsible for any errors or discrepancies that may occur.</Description>
             <div tw="mt-12 text-center">
-              I am working on another library similar to Treact, with <span tw="font-bold">more components</span> and a much <span tw="font-bold">better developer
-              experience</span>.
+              Please note that PropertyTroop is intended only as a source of information and should not be relied upon for legal representation or as a substitute for legally binding documents from government offices. If you require legally binding information about property ownership or any other matter, we recommend that you contact the appropriate government office for assistance.
             </div>
             <div tw="mt-12 text-center">
-              If you liked Treact and would like to get updates on the library I am working on among other things, do <span tw="font-bold">follow</span> me on
-              Twitter/GitHub.
-              <div tw="mt-12 flex flex-col items-center">
-                <a
-                  href="https://twitter.com/owaiswiz?ref_src=twsrc%5Etfw"
-                  className="twitter-follow-button"
-                  data-size="large"
-                  data-show-count="true"
-                >
-                  Follow @TwitterDev
-                </a>
-                <div tw="mt-8">
-                  <GitHubButton
-                    href="https://github.com/owaiswiz"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Follow @owaiswiz on GitHub"
-                  >
-                    Follow @owaiswiz
-                  </GitHubButton>
-                </div>
-              </div>
+              In addition, the timeline view provided by PropertyTroop is generated using algorithms that attempt to accurately represent information about property ownership and related events. However, we cannot guarantee the accuracy of this information and are not responsible for any errors or omissions that may occur.
+            </div>
+            <div tw="mt-12 text-center">
+              By using PropertyTroop, you acknowledge and agree that you are using the information provided at your own risk and that PropertyTroop is not responsible for any errors or omissions. We encourage you to verify any information obtained from PropertyTroop with the appropriate government office before relying on it for any purpose.
             </div>
           </HeroRow>
         </Content2Xl>

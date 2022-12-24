@@ -5,8 +5,7 @@ import RootPage from "demos/PropertyTroop.js";
 import TermsOfServicePage from "pages/TermsOfService.js";
 import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
-import ComponentRenderer from "ComponentRenderer.js";
-import ThankYouPage from "ThankYouPage.js";
+import DisclaimerPage from "ThankYouPage.js";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SaaSProductLandingPage from "./demos/SaaSProductLandingPage";
@@ -17,12 +16,9 @@ export default function App() {
       <GlobalStyles />
       <Router>
         <Routes>
-          <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />} />
-          <Route path="/components/:type/:name" element={<ComponentRenderer />} />
-          <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/tos" element={<TermsOfServicePage links={[]}/>} />
           <Route path="/privacy" element={<PrivacyPolicyPage links={[]} />} />
-          <Route path="/service" element={<SaaSProductLandingPage />} />
+          <Route path="/disclaimer" element={<DisclaimerPage links={[]} />} />
           <Route path="/" element={<RootPage />} />
         </Routes>
       </Router>
