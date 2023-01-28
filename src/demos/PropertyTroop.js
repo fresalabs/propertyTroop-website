@@ -34,7 +34,6 @@ export default () => {
             controls: 0,
             rel: 0,
             mute: 1
-
         },
     }
   return (

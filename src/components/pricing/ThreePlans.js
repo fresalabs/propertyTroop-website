@@ -119,7 +119,7 @@ export default ({
     },
     {
       name: "Documents by Survey No ",
-      video: <YouTube videoId="WMPINeZLo3A" opts={{...opts, playerVars: {...opts.playerVars, start: 51}}}  />
+      video: <YouTube videoId="WMPINeZLo3A" opts={{...opts, playerVars: {...opts.playerVars, start: 51, autoplay: 1, mute: 1}}}  />
     },
   ];
 
