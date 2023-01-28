@@ -7,6 +7,7 @@ import { SectionDescription } from "components/misc/Typography.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { ReactComponent as SvgDecoratorBlob } from "images/svg-decorator-blob-6.svg";
+import YouTube from "react-youtube";
 
 const HeaderContainer = tw.div`mt-10 w-full flex flex-col items-center`;
 const Subheading = tw(SubheadingBase)`mb-4`;
@@ -60,6 +61,8 @@ const PlanHeader = styled.div`
   }
 `;
 const PlanFeatures = styled.div`
+  justify-content: center;
+  align-items: center;
   ${tw`flex flex-col -mx-8 px-8 py-8 border-t-2 border-b-2 flex-1`}
   .feature {
     ${tw`mt-5 first:mt-0 font-medium`}
@@ -89,28 +92,34 @@ export default ({
   plans = null,
   primaryButtonText = "Buy Now"
 }) => {
+  const opts = {
+    height: '597',
+    width: '277.03937008',
+
+    playerVars: {
+      autoplay: 0,
+      loop: 1,
+      showinfo: 0,
+      controls: 0,
+      rel: 0,
+
+    },
+  }
+
+
   const defaultPlans = [
     {
-      name: "Personal",
-      price: "$17.99",
-      duration: "Monthly",
-      mainFeature: "Suited for Personal Blogs",
-      features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"],
+      name: "What is EC",
+      video: <YouTube videoId="r4hN2_Prub0" opts={opts}  />
+
     },
     {
-      name: "Business",
-      price: "$37.99",
-      duration: "Monthly",
-      mainFeature: "Suited for Production Websites",
-      features: ["60 Templates", "8 Landing Pages", "22 Internal Pages", "Priority Assistance"],
-      featured: true,
+      name: "Sample Property History",
+      video: <YouTube videoId="blE5S1AlSNE" opts={{...opts}}  />
     },
     {
-      name: "Enterprise",
-      price: "$57.99",
-      duration: "Monthly",
-      mainFeature: "Suited for Big Companies",
-      features: ["90 Templates", "9 Landing Pages", "37 Internal Pages", "Personal Assistance"],
+      name: "Documents by Survey No ",
+      video: <YouTube videoId="WMPINeZLo3A" opts={{...opts, playerVars: {...opts.playerVars, start: 51}}}  />
     },
   ];
 
@@ -145,20 +154,10 @@ export default ({
               {!plan.featured && <div className="planHighlight" css={highlightGradientsCss[index % highlightGradientsCss.length]} />}
               <PlanHeader>
                 <span className="name">{plan.name}</span>
-                <span className="price">{plan.price}</span>
-                <span className="duration">{plan.duration}</span>
               </PlanHeader>
               <PlanFeatures>
-                <span className="feature mainFeature">{plan.mainFeature}</span>
-                {plan.features.map((feature, index) => (
-                  <span key={index} className="feature">
-                    {feature}
-                  </span>
-                ))}
+                <span className="feature mainFeature">{plan.video}</span>
               </PlanFeatures>
-              <PlanAction>
-                <BuyNowButton css={!plan.featured && highlightGradientsCss[index]}>{primaryButtonText}</BuyNowButton>
-              </PlanAction>
             </Plan>
           ))}
           <DecoratorBlob/>

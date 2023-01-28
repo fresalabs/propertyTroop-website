@@ -37,14 +37,11 @@ const DecoratorBlob2 = tw(SvgDecoratorBlob1)`absolute top-0 right-0 w-80 h-80 tr
 export default ({
   subheading = "Download App",
   text = "Developers all over the world are happily using Treact.",
-  link1Text = "App Store",
-  link1Url = "http://apple.com",
-  link1IconSrc = appleIconImageSrc,
-  link2Text = "Google Play",
-  link2Url = "http://play.google.com",
-  link2IconSrc = googlePlayIconImageSrc,
+  link1Text = "Google Play",
+  link1Url = "http://play.google.com",
+  link1IconSrc = googlePlayIconImageSrc,
   pushDownFooter = false,
-  imageSrc = mockupImageSrc,
+  image =  <img src={mockupImageSrc} alt="" tw="w-64"/>
 }) => {
   return (
     <Container css={pushDownFooter && tw`mb-20 lg:mb-24`}>
@@ -58,14 +55,10 @@ export default ({
                 <img src={link1IconSrc} alt=""/>
                 <span>{link1Text}</span>
               </Link>
-              <Link href={link2Url}>
-                <img src={link2IconSrc} alt=""/>
-                <span>{link2Text}</span>
-              </Link>
             </LinksContainer>
           </TextContainer>
           <ImageContainer>
-            <img src={imageSrc} alt="" tw="w-64"/>
+            {image}
           </ImageContainer>
         </Row>
         <DecoratorBlobContainer>

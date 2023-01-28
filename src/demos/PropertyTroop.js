@@ -7,8 +7,7 @@ import Pricing from "components/pricing/ThreePlansWithHalfPrimaryBackground.js";
 import Testimonial from "components/testimonials/SimplePrimaryBackground.js";
 import FAQ from "components/faqs/TwoColumnPrimaryBackground.js";
 import Footer from "components/footers/FiveColumnDark.js";
-import serverRedundancyIllustrationImageSrc from "images/server-redundancy-illustration.svg"
-import serverSecureIllustrationImageSrc from "images/server-secure-illustration.svg"
+import YouTube from 'react-youtube';
 import ShieldIconImage from "../images/shield-icon.svg";
 import SupportIconImage from "../images/support-icon.svg";
 import CustomizeIconImage from "../images/customize-icon.svg";
@@ -17,9 +16,27 @@ import FastIconImage from "../images/fast-icon.svg";
 import reserchingBro from "images/propertyTroop/Researching-bro.svg";
 import documents from "images/propertyTroop/documents.svg";
 import search from "images/propertyTroop/search.svg";
+import DownloadApp from "../components/cta/DownloadApp";
+import tw from "twin.macro";
+import ThreePlans from "../components/pricing/ThreePlans";
 
+const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
 
 export default () => {
+    const opts = {
+        height: '597',
+        width: '277.03937008',
+
+        playerVars: {
+            autoplay: 1,
+            loop: 1,
+            showinfo: 0,
+            controls: 0,
+            rel: 0,
+            mute: 1
+
+        },
+    }
   return (
     <AnimationRevealPage>
       <Hero
@@ -28,6 +45,10 @@ export default () => {
         primaryButtonText="Take control of your property"
         imageSrc={reserchingBro}
       />
+        <DownloadApp
+            text={<>People around you are using <HighlightedTextInverse>PropertyTroop.</HighlightedTextInverse></>}
+            image={<YouTube videoId="WMPINeZLo3A" opts={opts}  />}
+        />
       <MainFeature
         subheading="Timeline Service"
         heading="Easily track the history of your documents with our Timeline View feature"
@@ -140,6 +161,7 @@ export default () => {
           }
         ]}
       />
+        <ThreePlans subheading="More Information" heading="YouTube Videos" description="These videos explain what an EC is and how PropertyTroop comes into picture knowing property's history"/>
       <FAQ
         description="At PropertyTroop, we have compiled a list of FAQs to provide you with the information you need to make an informed decision about our app. Our FAQs cover a range of topics, including how to use PropertyTroop, the accuracy and security of our services, and pricing. "
         faqs={[
