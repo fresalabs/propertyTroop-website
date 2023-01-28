@@ -7,6 +7,7 @@ import LogoImage from "images/logo-light.svg";
 import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
+import { ReactComponent as LinkedInIcon } from "images/linkedin-icon.svg";
 import Logo from "../../images/propertyTroop/Logo";
 
 const Container = tw.div`relative bg-gray-900 text-gray-100 -mx-8 -mb-8 px-8`;
@@ -53,13 +54,13 @@ export default () => {
             <CompanyAddress>
             </CompanyAddress>
             <SocialLinksContainer>
-              <SocialLink href="https://facebook.com">
+              <SocialLink href="https://www.instagram.com/get_property_troop/">
                 <FacebookIcon />
               </SocialLink>
-              <SocialLink href="https://twitter.com">
-                <TwitterIcon />
+              <SocialLink href="https://www.linkedin.com/company/getpropertytroop/">
+                <LinkedInIcon />
               </SocialLink>
-              <SocialLink href="https://youtube.com">
+              <SocialLink href="https://www.youtube.com/@propertytroop">
                 <YoutubeIcon />
               </SocialLink>
             </SocialLinksContainer>
