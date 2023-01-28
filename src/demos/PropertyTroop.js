@@ -15,6 +15,9 @@ import ReliableIconImage from "../images/reliable-icon.svg";
 import FastIconImage from "../images/fast-icon.svg";
 import reserchingBro from "images/propertyTroop/Researching-bro.svg";
 import documents from "images/propertyTroop/documents.svg";
+import GovindReddy from "images/propertyTroop/testimonals.jpeg";
+import Financier  from "images/propertyTroop/testimonal2.jpeg";
+
 import search from "images/propertyTroop/search.svg";
 import DownloadApp from "../components/cta/DownloadApp";
 import tw from "twin.macro";
@@ -139,22 +142,13 @@ export default () => {
           {
             customerName: "Govinda Reddy",
             customerProfile: "Real Estate Broker",
-            imageSrc:
-              "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.85&w=256&h=256&q=80",
+            imageSrc:Financier,
             quote:
               "I have been using PropertyTroop for 6 months, their timeline view helps me and my clients make informed decisions on property in a minute that usually takes a 2-3 weeks. PropertyTroop made my life easier with a single tap of a button."
           }, {
             customerName: "Sreeramulu",
             customerProfile: "Financier",
-            imageSrc:
-              "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.85&w=256&h=256&q=80",
-            quote:
-              "PropertyTroop helps me find the genuineness of the property and helps validate the property & owners without leaving my office."
-          }, {
-            customerName: "Sreeramulu",
-            customerProfile: "Financier",
-            imageSrc:
-              "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.85&w=256&h=256&q=80",
+            imageSrc:GovindReddy,
             quote:
               "PropertyTroop helps me find the genuineness of the property and helps validate the property & owners without leaving my office."
           }
