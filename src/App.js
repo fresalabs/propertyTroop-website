@@ -7,8 +7,7 @@ import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
 import DisclaimerPage from "ThankYouPage.js";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SaaSProductLandingPage from "./demos/SaaSProductLandingPage";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
