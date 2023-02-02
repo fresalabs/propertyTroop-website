@@ -46,7 +46,7 @@ export default ({ headingText = "Terms And Conditions", links=[] }) => {
           </HeadingRow>
           <Text>
 
-            <p>Last updated: December 04, 2022</p>
+            <p>Last updated: January 26, 2023</p>
 
             <p>Please read these terms and conditions carefully before using Our Service.</p>
 
@@ -70,10 +70,10 @@ export default ({ headingText = "Terms And Conditions", links=[] }) => {
               </li>
               <li>
                 <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement)
-                refers to Treact Inc., Navi Mumbai.
+                refers to PropertyTroop
               </li>
               <li>
-                <strong>Country</strong> refers to: Maharashtra, India
+                <strong>Country</strong> refers to: India
               </li>
               <li>
                 <strong>Service</strong> refers to the Website.
@@ -88,7 +88,7 @@ export default ({ headingText = "Terms And Conditions", links=[] }) => {
                 available by the Service.
               </li>
               <li>
-                <strong>Website</strong> refers to Treact, accessible from https://treact.com
+                <strong>Website</strong> refers to PropertyTroop, accessible from https://getpropertytroop.com
               </li>
               <li>
                 <strong>You</strong> means the individual accessing or using the Service, or the company, or other legal
