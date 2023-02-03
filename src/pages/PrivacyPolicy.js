@@ -103,7 +103,7 @@ export default ({ headingText = "Privacy Policy", links=[] }) => {
                       <iframe
                         width="50%"
                         height="315"
-                        src="https://www.youtube.com/embed/-AeqskWB2SM"
+                        src="https://youtube.com/shorts/Lr73yjmB69w"
                         title="How we use Google Authentication"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
