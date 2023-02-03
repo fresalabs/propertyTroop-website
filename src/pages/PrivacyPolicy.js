@@ -104,7 +104,6 @@ export default ({ headingText = "Privacy Policy", links=[] }) => {
                               title="PropertyTroop Google Authentication" frameBorder="0"
                               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                               allowFullScreen></iframe>
-                      </iframe>
                     </div>
                   </div>
                 </div>
