@@ -126,7 +126,12 @@ export default ({ headingText = "Terms And Conditions", links=[] }) => {
             <p>
               Link to Terms and Conditions of third party service
               providers used by the app
-            </p> <ul><li><a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Google Play Services</a></li><li><a href="https://developers.google.com/admob/terms" target="_blank" rel="noopener noreferrer">AdMob</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p>
+            </p>
+            <ul>
+              <li><a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+              <li><a href="https://developers.google.com/admob/terms" target="_blank" rel="noopener noreferrer">AdMob</a></li>
+            </ul>
+        <p>
           You should be aware that there are certain things that
           PropertyTroop will not take responsibility for. Certain
           functions of the app will require the app to have an active
