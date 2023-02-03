@@ -51,6 +51,22 @@ export default () => {
               By using PropertyTroop, you acknowledge and agree that you are using the information provided at your own risk and that PropertyTroop is not responsible for any errors or omissions. We encourage you to verify any information obtained from PropertyTroop with the appropriate government office before relying on it for any purpose.
             </div>
           </HeroRow>
+          <h1>Changes to Disclaimer</h1>
+          <p>
+            We reserve the right, at Our sole discretion, to modify or replace the disclaimer. If a revision
+            is material We will make reasonable efforts to keep you updated. What constitutes a material change will be determined at Our sole discretion.
+          </p>
+          <p>
+            By continuing to access or use Our Service after those revisions become effective, You agree to be bound
+            by the revised disclaimer. If You do not agree to the new disclaimer, in whole or in part, please stop using the
+            website and the Service.
+          </p>
+          <h1>Contact Us</h1>
+          <p>If you have any questions about the disclaimer, You can contact us:</p>
+
+          <ul>
+            <li>By email: support@getpropertytroop.com</li>
+          </ul>
         </Content2Xl>
       </Container>
     </AnimationRevealPage>

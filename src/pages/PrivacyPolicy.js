@@ -43,11 +43,13 @@ export default ({ headingText = "Privacy Policy", links=[] }) => {
             <Heading>{headingText}</Heading>
           </HeadingRow>
           <Text>
-            <p>Last updated: December 04, 2022</p>
+            <p>Last updated: January 26, 2023</p>
 
             <p>
               This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
               information when You use the Service and tells You about Your privacy rights and how the law protects You.
+              If you dont agree to this privacy policy please donot use this app.  This page is used to inform visitors regarding our
+              policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
             </p>
 
             <p>
@@ -55,6 +57,63 @@ export default ({ headingText = "Privacy Policy", links=[] }) => {
               collection and use of information in accordance with this Privacy Policy.
             </p>
 
+            <table>
+              <thead>
+              <tr>
+                <th>Access we ask for</th>
+                <th>We use it for</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>
+                  Google Authentication
+                </td>
+                <td>
+                  To login automatically with your google account, to get your profile details (first name, last name, profile picture if any, email address)
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Access to notifications
+                </td>
+                <td>
+                  To send a notification when we have a document ready for you that you searched or applied or payed for already, and to keep you updated with new updates and any other information
+                  as we feel appropriate to send you.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Access to internet
+                </td>
+                <td>
+                  To send the data entered to our servers or receive data from our servers and other third party services
+                </td>
+              </tr>
+              </tbody>
+            </table>
+            <div>
+              <p>
+                Video showing how we use Google Authentication
+              </p>
+              <div className="media-wrap">
+                <div className="media">
+                  <div className="fluid-video-wrapper">
+                    <div className="fluid-width-video-wrapper">
+                      <iframe
+                        width="50%"
+                        height="315"
+                        src="https://www.youtube.com/embed/-AeqskWB2SM"
+                        title="How we use Google Authentication"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      >
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <h1>Interpretation and Definitions</h1>
             <h2>Interpretation</h2>
             <p>

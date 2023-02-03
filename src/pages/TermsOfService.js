@@ -120,10 +120,37 @@ export default ({ headingText = "Terms And Conditions", links=[] }) => {
               Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection,
               use and disclosure of Your personal information when You use the Application or the Website and tells You
               about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before
-              using Our Service.
+              using Our Service. Please also read the disclaimer carefully before using our Service. If you donot agree to
+              the Privacy Policy or the Disclaimer please donot use the service.
             </p>
+            <p>
+              Link to Terms and Conditions of third party service
+              providers used by the app
+            </p> <ul><li><a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Google Play Services</a></li><li><a href="https://developers.google.com/admob/terms" target="_blank" rel="noopener noreferrer">AdMob</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p>
+          You should be aware that there are certain things that
+          PropertyTroop will not take responsibility for. Certain
+          functions of the app will require the app to have an active
+          internet connection. The connection can be Wi-Fi, or provided
+          by your mobile network provider, but PropertyTroop
+          cannot take responsibility for the app not working at full
+          functionality if you don’t have access to Wi-Fi, and you don’t
+          have any of your data allowance left.
+        </p> <p></p> <p>
+          If you’re using the app outside of an area with Wi-Fi, you
+          should remember that your terms of the agreement with your
+          mobile network provider will still apply. As a result, you may
+          be charged by your mobile provider for the cost of data for
+          the duration of the connection while accessing the app, or
+          other third party charges. In using the app, you’re accepting
+          responsibility for any such charges, including roaming data
+          charges if you use the app outside of your home territory
+          (i.e. region or country) without turning off data roaming. If
+          you are not the bill payer for the device on which you’re
+          using the app, please be aware that we assume that you have
+          received permission from the bill payer for using the app.
+        </p>
 
-            <h1>Links to Other Websites</h1>
+          <h1>Links to Other Websites</h1>
             <p>
               Our Service may contain links to third-party web sites or services that are not owned or controlled by the
               Company.
@@ -151,7 +178,7 @@ export default ({ headingText = "Terms And Conditions", links=[] }) => {
             <p>
               Notwithstanding any damages that You might incur, the entire liability of the Company and any of its
               suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be
-              limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased
+              limited to the amount actually paid by You through the Service or 1 INR if you haven't purchased
               anything through the Service.
             </p>
             <p>
@@ -168,8 +195,26 @@ export default ({ headingText = "Terms And Conditions", links=[] }) => {
               consequential damages, which means that some of the above limitations may not apply. In these states, each
               party's liability will be limited to the greatest extent permitted by law.
             </p>
+          <p>
+            At some point, we may wish to update the app. The app is
+            currently available on Android – the requirements for
+            system(and for any additional systems we
+            decide to extend the availability of the app to) may change,
+            and you’ll need to download the updates if you want to keep
+            using the app. fresalabs does not promise that it
+            will always update the app so that it is relevant to you
+            and/or works with the Android version that you have
+            installed on your device. However, you promise to always
+            accept updates to the application when offered to you, We may
+            also wish to stop providing the app, and may terminate use of
+            it at any time without giving notice of termination to you.
+            Unless we tell you otherwise, upon any termination, (a) the
+            rights and licenses granted to you in these terms will end;
+            (b) you must stop using the app, and (if needed) delete it
+            from your device.
+          </p>
 
-            <h1>"AS IS" and "AS AVAILABLE" Disclaimer</h1>
+          <h1>"AS IS" and "AS AVAILABLE" Disclaimer</h1>
             <p>
               The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty
               of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on
