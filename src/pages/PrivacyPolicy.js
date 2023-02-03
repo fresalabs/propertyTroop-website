@@ -100,14 +100,10 @@ export default ({ headingText = "Privacy Policy", links=[] }) => {
                 <div className="media">
                   <div className="fluid-video-wrapper">
                     <div className="fluid-width-video-wrapper">
-                      <iframe
-                        width="50%"
-                        height="315"
-                        src="https://youtube.com/shorts/Lr73yjmB69w"
-                        title="How we use Google Authentication"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      >
+                      <iframe width="473" height="841" src="https://www.youtube.com/embed/Lr73yjmB69w"
+                              title="PropertyTroop Google Authentication" frameBorder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allowFullScreen></iframe>
                       </iframe>
                     </div>
                   </div>
