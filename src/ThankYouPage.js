@@ -2,9 +2,6 @@ import React from "react";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import { Container, Content2Xl } from "components/misc/Layouts";
 import tw from "twin.macro";
-// eslint-disable-next-line
-import { css } from "styled-components/macro"; 
-import GitHubButton from "react-github-btn";
 
 import { LogoLink } from "components/headers/light.js";
 import { SectionHeading as HeadingBase } from "components/misc/Headings";
@@ -29,16 +26,8 @@ export default () => {
    * Using gtag like this because we only want to use Google Analytics when Main Landing Page is rendered
    * Remove this part and the the gtag script inside public/index.html if you dont need google analytics
    */
-  window.gtag("js", new Date());
-  window.gtag("config", "UA-45799926-9");
-
-  const downloadUrl = "/treact-ui.zip"
-  React.useEffect(() => {
-    var iframe = document.createElement("iframe");
-    iframe.style.display = "none";
-    iframe.src = downloadUrl
-    document.body.appendChild(iframe);
-  }, [])
+  // window.gtag("js", new Date());
+  // window.gtag("config", "UA-45799926-9");
 
   return (
     <AnimationRevealPage disabled>
