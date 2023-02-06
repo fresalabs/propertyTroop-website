@@ -125,7 +125,7 @@ export default () => {
         }, {
           name: "Certified Copy",
           price: ["₹300", ".00/document"],
-          oldPrice: "$400.00",
+          oldPrice: "₹400.00",
           description: "Obtain a copy of your document with our Certified Copy service.",
           features: [
             "Fast turnaround",
