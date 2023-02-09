@@ -13,6 +13,7 @@ import {SectionDescription} from "components/misc/Typography.js";
 import {PrimaryButton as PrimaryButtonBase} from "components/misc/Buttons.js";
 import serverIllustrationImageSrc from "images/server-illustration-2.svg";
 import Logo from "images/propertyTroop/Logo.js";
+import {androidUrl} from "../../constants";
 
 const PrimaryBackgroundContainer = tw.div`-mx-8 px-8 bg-primary-900 text-gray-100`;
 const Header = tw(HeaderBase)`max-w-none -mt-8 py-8 -mx-8 px-8`;
@@ -47,7 +48,7 @@ export default ({
       <NavLink href="/tos">Terms of Service</NavLink>
       <NavLink href="/privacy">Privacy Policy</NavLink>
       <NavLink href="/disclaimer">Disclaimer</NavLink>
-      <NavLink href="/#" tw="lg:ml-12!">
+      <NavLink href={androidUrl} tw="lg:ml-12!">
         Try PropertyTroop
       </NavLink>
     </NavLinks>

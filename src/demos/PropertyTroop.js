@@ -22,6 +22,7 @@ import search from "images/propertyTroop/search.svg";
 import DownloadApp from "../components/cta/DownloadApp";
 import tw from "twin.macro";
 import ThreePlans from "../components/pricing/ThreePlans";
+import {androidUrl} from "../constants";
 
 const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
 
@@ -45,6 +46,7 @@ export default () => {
         heading="Effortlessly access property encumbrance with PropertyTroop"
         description="Discover the encumbrance history of any property without the hassle of visiting a lawyer or standing in government lines with PropertyTroop's convenient app."
         primaryButtonText="Take control of your property"
+        primaryButtonUrl={androidUrl}
         imageSrc={reserchingBro}
       />
         <DownloadApp
@@ -58,6 +60,7 @@ export default () => {
         imageSrc={documents}
         buttonRounded={false}
         primaryButtonText="Try PropertyTroop"
+        primaryButtonUrl={androidUrl}
       />
       <MainFeature
         subheading="Search Service"
@@ -67,6 +70,7 @@ export default () => {
         buttonRounded={false}
         textOnLeft={false}
         primaryButtonText="Try PropertyTroop"
+        primaryButtonUrl={androidUrl}
       />
       <MainFeature
         subheading="CC (Certified Copy) Service"
@@ -75,6 +79,7 @@ export default () => {
         imageSrc={search}
         buttonRounded={false}
         primaryButtonText="Try PropertyTroop"
+        primaryButtonUrl={androidUrl}
       />
       <Features
         heading="Experience the Convenience and Accuracy of PropertyTroop's features"

@@ -8,6 +8,7 @@ import { ContentWithPaddingXl, Container as ContainerBase } from "components/mis
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import appleIconImageSrc from "images/apple-icon.png";
 import googlePlayIconImageSrc from "images/google-play-icon.png"
+import {androidUrl} from "../../constants";
 
 const Container = tw(ContainerBase)`bg-gray-900 -mx-8`
 const Content = tw(ContentWithPaddingXl)``
@@ -38,7 +39,7 @@ export default ({
   subheading = "Download App",
   text = "Developers all over the world are happily using Treact.",
   link1Text = "Google Play",
-  link1Url = "http://play.google.com",
+  link1Url = androidUrl,
   link1IconSrc = googlePlayIconImageSrc,
   pushDownFooter = false,
   image =  <img src={mockupImageSrc} alt="" tw="w-64"/>

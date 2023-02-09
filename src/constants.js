@@ -1,0 +1,1 @@
+export const androidUrl = "https://play.google.com/store/apps/details?id=com.fresalabs.propertytroop"
