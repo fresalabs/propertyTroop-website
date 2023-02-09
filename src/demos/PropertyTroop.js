@@ -126,7 +126,7 @@ export default () => {
             "Schedule of the property",
             "Boundaries",
           ],
-          url: "https://google.com"
+          url: androidUrl
         }, {
           name: "Certified Copy",
           price: ["₹300", ".00/document"],
@@ -138,7 +138,7 @@ export default () => {
             "View/Print",
             "Shareable",
           ],
-          url: "https://google.com"
+          url: androidUrl
         }]}
       />
       <Testimonial
