@@ -17,6 +17,7 @@ import reserchingBro from "images/propertyTroop/Researching-bro.svg";
 import documents from "images/propertyTroop/documents.svg";
 import GovindReddy from "images/propertyTroop/testimonals.jpeg";
 import Financier  from "images/propertyTroop/testimonal2.jpeg";
+import TimelineImage  from "images/propertyTroop/timeline.png";
 
 import search from "images/propertyTroop/search.svg";
 import DownloadApp from "../components/cta/DownloadApp";
@@ -57,7 +58,7 @@ export default () => {
         subheading="Timeline Service"
         heading="Easily track the history of your documents with our Timeline View feature"
         description="Our Timeline View feature provides a comprehensive and chronological history of your documents. With a user-friendly interface, you can easily track changes or updates made to the document over time. You can customize the Timeline View to focus on specific dates, events, or changes, making it easy to find the specific information you are looking for. Our Timeline View feature is shareable and can be accessed in a variety of formats. Whether you need to track the history of a single document or multiple documents, our Timeline View feature has you covered."
-        imageSrc={documents}
+        imageSrc={TimelineImage}
         buttonRounded={false}
         primaryButtonText="Try PropertyTroop"
         primaryButtonUrl={androidUrl}
