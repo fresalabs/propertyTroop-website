@@ -56,6 +56,7 @@ export default ({
                 <img src={link1IconSrc} alt=""/>
                 <span>{link1Text}</span>
               </Link>
+
             </LinksContainer>
           </TextContainer>
           <ImageContainer>

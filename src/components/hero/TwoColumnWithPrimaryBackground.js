@@ -14,6 +14,7 @@ import {PrimaryButton as PrimaryButtonBase} from "components/misc/Buttons.js";
 import serverIllustrationImageSrc from "images/server-illustration-2.svg";
 import Logo from "images/propertyTroop/Logo.js";
 import {androidUrl} from "../../constants";
+import styled from "styled-components";
 
 const PrimaryBackgroundContainer = tw.div`-mx-8 px-8 bg-primary-900 text-gray-100`;
 const Header = tw(HeaderBase)`max-w-none -mt-8 py-8 -mx-8 px-8`;
@@ -30,6 +31,13 @@ const Heading = tw(SectionHeading)`max-w-3xl lg:max-w-4xl lg:text-left leading-t
 const Description = tw(SectionDescription)`mt-4 max-w-2xl text-gray-100 lg:text-base mx-auto lg:mx-0`;
 const PrimaryButton = tw(PrimaryButtonBase)`mt-8 text-sm sm:text-base px-6 py-5 sm:px-10 sm:py-5 bg-primary-400 inline-block hocus:bg-primary-500`;
 const Image = tw.img`w-144 ml-auto`
+const Link = styled.a`
+  img {
+    ${tw`inline-block `}
+  }
+
+`;
+
 
 export default ({
   heading = "High Performant Servers tailored to your needs",
@@ -66,7 +74,12 @@ export default ({
               <TextColumn>
                 <Heading>{heading}</Heading>
                 <Description>{description}</Description>
-                <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
+                <div style={{display: 'flex', width: '100%', alignItems: "center", flexWrap: "wrap", marginTop: '2em', justifyContent: 'start'}}>
+                <PrimaryButton style={{margin: 8, minWidth: 300}} as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
+                <Link style={{margin: 8,  width: 300}} href="https://www.producthunt.com/posts/propertytroop?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-propertytroop" >
+                  <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=379807&theme=light" alt="" style={{height: 61}}/>
+                </Link>
+                </div>
               </TextColumn>
               <IllustrationColumn>
                 <Image src={imageSrc}/>
