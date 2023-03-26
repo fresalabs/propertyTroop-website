@@ -73,6 +73,15 @@ export default () => {
         primaryButtonText="Try PropertyTroop"
         primaryButtonUrl={androidUrl}
       />
+        <MainFeature
+            subheading="Encumbrance Certificate Service"
+            heading="Don't trust without seeing the EC"
+            description="Property provides a simple and safe method for obtaining your Encumbrance Certificate, which is a document that proves that your property is free from any legal or financial obligations. This document is important because it shows that you have a clear and valid ownership of your property, without any debts or legal issues attached to it. Having an Encumbrance Certificate gives you peace of mind and reassurance that you can enjoy your property without any complications or legal problems."
+            imageSrc={search}
+            buttonRounded={false}
+            primaryButtonText="Try PropertyTroop"
+            primaryButtonUrl={androidUrl}
+        />
       <MainFeature
         subheading="CC (Certified Copy) Service"
         heading="Don't trust without seeing the document"
@@ -128,10 +137,23 @@ export default () => {
             "Boundaries",
           ],
           url: androidUrl
-        }, {
+        },
+        {
+            name: "Encumbrance Certificate",
+            price: ["5", ".00/document"],
+            oldPrice: "₹50.00",
+            description: "Obtain a copy of EC with our Encumbrance Certificate service.",
+            features: [
+                "Fast turnaround",
+                "Convenient",
+                "View/Print",
+                "Shareable",
+            ],
+            url: androidUrl
+        },{
           name: "Certified Copy",
-          price: ["₹300", ".00/document"],
-          oldPrice: "₹400.00",
+          price: ["50", ".00/document"],
+          oldPrice: "₹100.00",
           description: "Obtain a copy of your document with our Certified Copy service.",
           features: [
             "Fast turnaround",
