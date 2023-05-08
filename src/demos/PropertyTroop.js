@@ -163,7 +163,7 @@ export default () => {
             url: androidUrl
         },{
           name: "AI Optimized Encumbrance Certificate",
-          price: ["10", ".00/document"],
+          price: ["20", ".00/document"],
           oldPrice: "₹50.00",
           description: "Obtain a copy of EC with only details you require with our Encumbrance Certificate service.",
           features: [
