@@ -158,8 +158,8 @@ export default () => {
         description="At PropertyTroop, we understand that not everyone has the same real estate needs. That's why we offer flexible pricing options to suit your specific requirements. Rather than a traditional monthly subscription model, we allow you to pay on a per-use basis. This means that you only pay for the timeline views or documents that you access, giving you complete control over your budget. Whether you're a first-time property buyer or a seasoned investor, our pay-as-you-use pricing makes it easy to get the information you need without breaking the bank. Try PropertyTroop today and see the difference for yourself."
         plans={[{
           name: "Timeline view",
-          price: ["₹10", ".00/timeline"],
-          oldPrice: "₹50.00",
+          price: ["₹50", ".00/timeline"],
+          oldPrice: "₹250.00",
           description: "Timeline View provides a complete and chronological history of your document, including any changes or updates made",
           features: [
             "Shareable Timeline view",
@@ -171,8 +171,8 @@ export default () => {
         },
         {
             name: "Encumbrance Certificate",
-            price: ["5", ".00/document"],
-            oldPrice: "₹20.00",
+            price: ["25", ".00/doc"],
+            oldPrice: "₹250.00",
             description: "Obtain a copy of EC with our Encumbrance Certificate service.",
             features: [
                 "Fast turnaround",
@@ -183,8 +183,8 @@ export default () => {
             url: androidUrl
         },{
           name: "AI Optimized Encumbrance Certificate",
-          price: ["20", ".00/document"],
-          oldPrice: "₹50.00",
+          price: ["100", ".00/doc"],
+          oldPrice: "₹250.00",
           description: "Obtain a copy of EC with only details you require with our Encumbrance Certificate service.",
           features: [
             "Short EC",
@@ -195,8 +195,8 @@ export default () => {
           url: androidUrl
         }, {
           name: "Certified Copy",
-          price: ["100", ".00/document"],
-          oldPrice: "₹200.00",
+          price: ["500", ".00/doc"],
+          oldPrice: "₹1000.00",
           description: "Obtain a copy of your document with our Certified Copy service.",
           features: [
             "Fast turnaround",
