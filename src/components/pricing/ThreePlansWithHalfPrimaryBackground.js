@@ -11,18 +11,25 @@ import { ReactComponent as CheckboxIcon } from "images/checkbox-circle.svg";
 const Container = tw(ContainerBase)`bg-primary-900 text-gray-100 -mx-8 px-8`;
 const ContentWithPaddingXl = tw(
   ContentBase
-)`relative z-10 mx-auto px-0 py-10 sm:px-6 md:px-8 lg:px-12 xl:px-24 sm:py-20 flex flex-col max-w-screen-xl`;
+)`relative z-10 mx-auto px-0 py-10 sm:px-6 md:px-8  sm:py-20 flex flex-col max-w-screen-xl`;
 const HeaderContainer = tw.div`mt-10 w-full flex flex-col items-center`;
 const Subheading = tw(SubheadingBase)`mb-4 text-gray-100`;
 const Heading = tw(SectionHeading)`w-full`;
 const Description = tw(SectionDescription)`w-full text-gray-300 text-center`;
 
-const PlansContainer = tw.div`mt-16 flex flex-col items-center lg:flex-row lg:items-stretch lg:justify-between text-gray-900 font-medium`;
+const PlansContainer = styled.div`
+  display: flex;
+  row-gap: 3rem;
+  column-gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+`;
 const Plan = styled.div`
   ${tw`w-full max-w-sm bg-white rounded-lg shadow-sm py-10 px-6 sm:px-10 lg:px-6 lg:py-10 xl:p-10 mx-3 flex flex-col justify-between mt-16 first:mt-0 lg:mt-0 shadow-raised`}
 `;
 
 const PlanHeader = styled.div`
+  color: black;
   .nameAndFeaturedContainer {
     ${tw`flex flex-wrap flex-col sm:flex-row justify-between items-center`}
   }
@@ -42,6 +49,8 @@ const PlanHeader = styled.div`
     }
     .oldPrice {
       ${tw`text-gray-500 text-lg line-through hidden sm:block`}
+      line-height: initial;
+      margin-left: 4px;
     }
   }
   .description {
