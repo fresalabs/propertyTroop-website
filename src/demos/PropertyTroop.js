@@ -28,6 +28,7 @@ import tw from "twin.macro";
 import ThreePlans from "../components/pricing/ThreePlans";
 import {androidUrl} from "../constants";
 import TwoImagesSideBySide from "../components/features/TwoImagesSideBySide";
+import Refund from "../components/refund/Refund";
 
 const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
 
@@ -207,6 +208,8 @@ export default () => {
           url: androidUrl
         }]}
       />
+        <Refund heading="Refund Policy" subheading="At Properttroop, we are committed to ensuring your satisfaction with our services and products. Understanding that sometimes things may not go as planned, we have a straightforward refund policy to address your concerns." description="Requesting a Refund:
+If you find yourself unsatisfied with your purchase or encounter issues, please don't hesitate to reach out to us. To initiate a refund request, simply contact our dedicated support team at support@propertytroop.com. We request that you include your order details and the reason for the refund request to help us expedite the process. " />
       <Testimonial
         description="At PropertyTroop, we value the feedback of our customers and use testimonials to highlight the positive impact our app has had on their real estate journey. Whether you are looking to buy, sell, or rent a property, our testimonials can give you an idea of what to expect when working with PropertyTroop. Read or watch our testimonials today and see what others have to say about their experiences with our app."
         testimonials={[
